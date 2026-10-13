@@ -1,0 +1,16 @@
+{
+  "name": "lp-editlabai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Landing page EditLab AI com vídeo na Hero e oferta animada.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node server.mjs",
+    "dev": "npm run build && npm start"
+  },
+  "engines": {
+    "node": ">=22 <25",
+    "npm": ">=10"
+  }
+}
